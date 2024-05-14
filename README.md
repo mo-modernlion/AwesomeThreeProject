@@ -1,3 +1,9 @@
+
+
+
+https://github.com/mo-modernlion/AwesomeThreeProject/assets/117889197/d2eab986-1a3e-4767-a8e6-c5d500a29f61
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
