@@ -13,15 +13,15 @@ function App(): JSX.Element {
       <View style={styles.modelContainer} {...events}>
         <Canvas>
           <OrbitControls enablePan={false} />
-          <directionalLight position={[1, 0, 0]} args={['black', 5]} />
-          <directionalLight position={[-1, 0, 0]} args={['black', 5]} />
-          <directionalLight position={[0, 0, 1]} args={['black', 5]} />
-          <directionalLight position={[0, 0, -1]} args={['black', 5]} />
-          <directionalLight position={[0, 1, 0]} args={['black', 5]} />
-          <directionalLight position={[0, -1, 0]} args={['black', 5]} />
+          <directionalLight position={[1, 0, 0]} args={['white', 5]} />
+          <directionalLight position={[-1, 0, 0]} args={['white', 5]} />
+          <directionalLight position={[0, 0, 1]} args={['white', 5]} />
+          <directionalLight position={[0, 0, -1]} args={['white', 5]} />
+          <directionalLight position={[0, 1, 0]} args={['white', 5]} />
+          <directionalLight position={[0, -1, 0]} args={['white', 5]} />
           <Suspense fallback={null}>
-            {/* <Chair /> */}
-            <Gun />
+            <Chair />
+            {/* <Gun /> */}
           </Suspense>
         </Canvas>
       </View>
